@@ -1,0 +1,21 @@
+/* -------- page-info -------- */
+
+.page-info {
+  padding: 50px 0;
+  padding-top: 75px;
+  background:transparent url('../img/bg-2_new.jpg') no-repeat;
+  background-size: cover;
+
+  &__title {
+    @include font-size(28px);
+
+    display: inline-block;
+    margin: 0;
+    margin-left: 35px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: rgba(32, 46, 59, 0.7);
+    font-weight: normal;
+    color: #fff;
+  }
+}

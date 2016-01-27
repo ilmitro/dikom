@@ -1,9 +1,8 @@
 /* -------- promo -------- */
 
 .promo {
-
-  padding: 100px 0;
-  background:transparent url('../img/bg-2_new.jpg') no-repeat;
+  padding: 90px 0;
+  background:transparent url('../img/bg-promo.jpg') no-repeat;
   background-size: cover;
 
   &__info {
@@ -17,7 +16,6 @@
   &__title {
     @include font-size(28px);
     margin: 0;
-    margin-bottom: 30px;
     font-weight: normal;
     color: #fff;
   }
@@ -25,6 +23,7 @@
   &__link {
     display: inline-block;
     padding: 15px;
+    margin-top: 30px;
     border-radius: 3px;
     text-decoration: none;
     color: #fff;
