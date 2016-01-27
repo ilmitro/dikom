@@ -1,0 +1,17 @@
+/* -------- consultation -------- */
+
+.consultation {
+  padding: 35px 0;
+  text-align: center;
+  background-color: $color-primary;
+
+  &__info {
+    @include font-size(20px);
+    margin: 0;
+    color: $color-third;
+  }
+
+  &__phone {
+    color: #fff;
+  }
+}

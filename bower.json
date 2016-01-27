@@ -16,6 +16,10 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "bxslider-4": "bx-slider.js#~4.2.5"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.3"
   }
 }

@@ -1,0 +1,16 @@
+/* -------- footer-page -------- */
+
+.footer-page {
+  padding: 30px 0;
+  background-color: $color-primary;
+
+  &__adress {
+    float: left;
+  }
+
+  &__adress-text {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+}

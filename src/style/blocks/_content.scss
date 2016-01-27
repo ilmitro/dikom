@@ -1,0 +1,21 @@
+/* -------- content -------- */
+
+.content {
+  float: left;
+  width: 70%;
+  padding: 30px 0;
+
+  &__title {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $color-secondary;
+  }
+}
