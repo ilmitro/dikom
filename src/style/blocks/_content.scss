@@ -6,9 +6,15 @@
   padding: 30px 0;
 
   &__title {
-    display: inline-block;
     margin: 0;
     margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+  &__title-news {
+    @include font-size(20px);
+    display: inline-block;
+    margin: 0;
     font-weight: normal;
   }
 
@@ -23,5 +29,15 @@
       margin-top: 70px;
       text-align: center;
     }
+  }
+
+  &__date {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    background-color: $color-secondary;
+    border-radius: 3px;
+    color: #fff;
   }
 }
