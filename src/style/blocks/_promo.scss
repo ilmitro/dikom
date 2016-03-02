@@ -1,8 +1,8 @@
 /* -------- promo -------- */
 
 .promo {
-  padding: 90px 0;
-  background:transparent url('../img/bg-promo.jpg') no-repeat;
+  padding: 80px 0;
+  background:transparent url('../img/bg-promo-test.jpg') no-repeat 50% 50%;
   background-size: cover;
 
   &__info {
@@ -10,6 +10,7 @@
     max-width: 445px;
     padding: 30px;
     border-radius: 5px;
+    background-color: #333333; /* для ie */
     background-color: rgba(32, 46, 59, 0.7);
   }
 

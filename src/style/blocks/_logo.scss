@@ -1,15 +1,13 @@
 /* -------- logo -------- */
 
 .logo {
-  // display: inline-block;
   position: absolute;
   z-index: 1;
   top: 0;
   width: 280px;
   height: 150px;
-  font-size: 0;
+  // font-size: 0;
   background: $color-third;
-  // box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
   &:after {
     content: "";
@@ -31,5 +29,12 @@
     left: 0;
     right: 0; 
     margin: auto;
+  }
+
+  &__text {
+    /* Прячем текст в логотипе */
+    font: 0/0 serif;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
